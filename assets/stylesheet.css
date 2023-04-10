@@ -32,3 +32,34 @@ ul {
 li {
     margin-bottom: 10px;
 }
+nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+nav li a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav li a:link {
+    color: #fff;
+}
+
+nav li a:visited {
+     color: #fff;
+}
+
+nav li a:hover {
+     color: #fff;
+}
+
+nav li a:active {
+     color: #fff;
+}
